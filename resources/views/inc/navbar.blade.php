@@ -4,7 +4,7 @@
                     <span class="navbar-toggler-icon"></span>
                 </button>
                  <a class="navbar-brand" href="{{ url('/') }}">
-                    <img src="/storage/logo/great-shoes.svg" />
+                    <img src="{{asset('/storage/logo/great-shoes.svg')}}" />
                 </a>
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <!-- Left Side Of Navbar -->
@@ -14,7 +14,6 @@
                         <li><a class="nav-link" href="">our story</a></li>
                         <li><a class="nav-link" href="">visit us</a></li>
                     </ul>
-                    
                     <!-- Right Side Of Navbar -->
                     <ul class="navbar-nav menu-right ml-auto">
                         <!-- Authentication Links -->

@@ -9,7 +9,7 @@
     <meta name="csrf-token" content="{{ csrf_token() }}">
 
     <title> {{ config('app.name', 'GreatShoes') }}</title>
-    <link rel="icon" href="/storage/logo/great-shoes.ico" />
+    <link rel="icon" href="{{asset('/storage/logo/great-shoes.ico')}}" />
     <script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
     <!-- Styles -->
     <link href="{{ asset('css/app.css') }}" rel="stylesheet">
