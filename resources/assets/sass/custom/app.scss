@@ -1,0 +1,46 @@
+@import "variables";
+nav{
+	height: 80px;
+	// padding: 30px auto;
+	border: 1px solid;
+	box-shadow: 5px 5px blue, 10px 10px red, 15px 15px green;
+	.container-fluid{
+		position: relative;
+	
+		.navbar-brand{
+			position: absolute;
+			left: 50%;
+			right: 50%;
+			top:0;
+			margin: 0;
+			padding: 0;
+		}
+
+		.menu-right{
+			margin-left: 30% !important;
+		}
+	}
+	
+	.menu-right, .menu-left{
+		margin-left: 30px;
+
+		li{
+			// display: inline-block;
+			padding-right: 20px;
+
+			a{
+				font-style: bold;
+				text-transform: uppercase;
+				font-weight: 600;
+				color: #001133;
+    			text-decoration: none;
+    			font-family: futura-pt,sans-serif;
+			}
+		}
+	}
+	.fas{
+		display: inline-block;
+		color: white;
+	}
+	
+}

@@ -1,0 +1,49 @@
+nav {
+  height: 80px;
+  border: 1px solid;
+  -webkit-box-shadow: 5px 5px blue, 10px 10px red, 15px 15px green;
+          box-shadow: 5px 5px blue, 10px 10px red, 15px 15px green;
+}
+
+nav .container-fluid {
+  position: relative;
+}
+
+nav .container-fluid .navbar-brand {
+  position: absolute;
+  left: 50%;
+  right: 50%;
+  top: 0;
+  margin: 0;
+  padding: 0;
+}
+
+nav .container-fluid .menu-right {
+  margin-left: 30% !important;
+}
+
+nav .menu-right,
+nav .menu-left {
+  margin-left: 30px;
+}
+
+nav .menu-right li,
+nav .menu-left li {
+  padding-right: 20px;
+}
+
+nav .menu-right li a,
+nav .menu-left li a {
+  font-style: bold;
+  text-transform: uppercase;
+  font-weight: 600;
+  color: #001133;
+  text-decoration: none;
+  font-family: futura-pt,sans-serif;
+}
+
+nav .fas {
+  display: inline-block;
+  color: white;
+}
+
